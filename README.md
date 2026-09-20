@@ -72,3 +72,11 @@ Sistem ini dirancang menggunakan paradigma **Pemrograman Berorientasi Objek (OOP
   - **Tambah & Edit:** Mengelola *file upload* gambar lokal[cite: 4]. File dipindahkan ke direktori `./uploads/` dengan penamaan unik berbasis `time() + uniqid()`, lalu path file disimpan pada properti objek[cite: 4].
   - **Penghapusan:** Menghapus file gambar fisik dari disk menggunakan `unlink()` (jika bukan gambar default), menghapus elemen dari array dengan `unset()`, dan mereorganisasi indeks array dengan `array_values()`[cite: 4].
 - **Persistensi & Rendering:** Setiap perubahan diakhiri dengan pemanggilan method internal `saveToSession()` yang melakukan `serialize()` pada daftar objek[cite: 4]. Tampilan daftar film dirender ke dalam tabel HTML dengan mengakses method *getter* masing-masing objek[cite: 4].
+
+![alt](<Dokumentasi/Screenshot 2026-09-20 202040.png>)
+![alt](<Dokumentasi/Screenshot 2026-09-20 203514.png>)
+![alt](<Dokumentasi/Screenshot 2026-09-20 203525.png>)
+![alt](<Dokumentasi/Screenshot 2026-09-20 203553.png>)
+![alt](<Dokumentasi/Screenshot 2026-09-20 203627.png>)
+![alt](<Dokumentasi/Screenshot 2026-09-20 203722.png>)
+![alt](<Dokumentasi/Screenshot 2026-09-20 203733.png>)
